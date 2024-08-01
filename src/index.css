@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #e2e7ed !important; */
+  background-color: rgb(238, 242, 246) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main-container {
+  padding: 5px 0px;
+  margin: 0 auto;
+  max-width: 95%;
+}
+
+.MuiDataGrid-columnHeader {
+  background-color: #8080806b !important;
+  /* height: 35px !important; */
+}
+
+/* /input[type=text] { */
+/* input {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px !important;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em !important;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  -webkit-animation-name: mui-auto-fill-cancel;
+  animation-name: mui-auto-fill-cancel;
+  -webkit-animation-duration: 10ms;
+  animation-duration: 10ms;
+  padding-top: 1px;
+  padding: 8.5px 14px !important;
+} 
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+line-height: 0.900em !important;
+}*/
+
+.hidden {
+  display: none !important;
+}
+
+.MuiButton-root {
+  padding: 4px 8px !important;
+}
+
+.MuiCardContent-root {
+  padding: 10px !important;
+}
+
+.btnGrid {
+  padding: 0px 4px !important;
+  text-transform: none !important;
+  /* margin: 10px 0 !important; */
+  margin: 1px !important;
+  font-size: 12px !important;
+}
+
+.MuiTypography-h5 {
+  font-weight: 500 !important;
+}
+
+.sub-title {
+  font-weight: bolder;
+}
+
+/* .MuiStack-root {
+  display: -webkit-box !important;
+} */
+
+.MuiCardHeader-root {
+  padding: 3px 10px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+}
+
+.MuiCardHeader-title {
+  font-size: 1.2rem !important;
+}
+
+.label {
+  font-weight: 500 !important;
+}
+
+.MuiFormLabel-root {
+  z-index: 0 !important;
+}
+
+.bg-light-red {
+  background-color: #ffcdd2 !important;
+}
+
+.MuiDataGrid-cellContent {
+  word-wrap: break-word !important;
+  text-align: center;
+}
+
+.MuiDataGrid-row:nth-child(even) {
+  background-color: #80808017 !important;
+}
+
+.MuiDataGrid-cell,
+.MuiDataGrid-columnHeaderTitleContainer {
+  justify-content: center !important;
+}
+
+.MuiDataGrid-cell {
+  padding: 0 7px !important;
+}
+
+.DayPickerInput-Overlay {
+  z-index: 99;
+}
+
+.tblItemRate .MuiDataGrid-cellContent {
+  white-space-collapse: break-spaces !important;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.tblReceipt {
+  display: block;
+  overflow-x: auto;
+  /* white-space: nowrap; */
+}
+
+.htmlDisplay {
+  border: 0.1px solid;
+  border-color: #efebeb;
+  padding: 0px 9px;
+  box-shadow: 0 0 5px 2px #dfd3d3;
+}
+
+.zoom {
+  /* padding: 50px; */
+  background-color: #6a59590f;
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2); /*scale(1.5);  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

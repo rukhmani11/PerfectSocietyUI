@@ -1,0 +1,52 @@
+DatePicker
+https://www.npmjs.com/package/react-datepicker
+https://reactdatepicker.com/
+
+//Get raw input value on change
+
+npm i
+npm start
+
+To Deploy*******
+https://www.letsreact.org/deploy-react-application-on-iis-server/
+npm run build
+
+copy everything from build folder
+
+npm install -g serve
+serve -s build
+
+In index.html change title for SS Society
+
+https://www.npmjs.com/package/react-multi-select-component
+
+==========================================
+
+For Pagination state
+https://mui.com/x/react-data-grid/state/
+https://mui.com/x/react-data-grid/state/#save-and-restore-the-state-from-external-storage
+https://stackoverflow.com/questions/74046329/is-there-any-way-to-save-mui-datagrid-toolbars-state
+
+
+Route related changes if done on Login method then change on
+. Login.tsx
+. Home.tsx 
+. Header.tsx 
+Since navigate and AuthContext cannot be used at top level, hence its not added in globalService
+https://codesandbox.io/s/wandering-bush-dbium?expanddevtools=1&fontsize=14&hidenavigation=1&module=/src/app.js&theme=dark&file=/src/App.js
+https://stackoverflow.com/questions/61146577/textfield-onchange-with-nested-object
+
+. index.tsx has createTheme
+
+Live login
+http://150.129.47.132:10106/
+
+
+admin
+@dM1nAn)l
+
+
+---
+http://150.129.47.132:10106/appinfo
+
+AdA#&*m$n
